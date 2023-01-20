@@ -1,0 +1,238 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 0;
+}
+
+h1{
+  font-weight: bold;
+  font-family: "Times New Roman";
+  text-align: center;
+  background: #34495E;
+  color: #fff;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.home_{
+  position: absolute;
+  transform: translateY(-40px);
+  margin-left: 13px;
+  width: 50px;
+}
+
+.row{
+  background: #34495E;
+  color: #fff;
+}
+
+.row_grid{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.addPadding{
+  padding: 25px;
+}
+
+.row_grid{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.array_size{
+  margin-right: 15px;
+}
+
+.size_speed{
+  margin-left: 300px;
+}
+
+.flex-container{
+    margin-top: 6%;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: center;
+    transition: 0.2s all ease;
+}
+
+.flex-item{
+    display: block;
+    border: 1pt solid black;
+    width: 60px;
+    transition: 0.1s all ease;
+}
+
+.bar{
+  border: 2px solid;
+  line-height: 55px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+}
+
+.bar_{
+  border: 2px solid;
+  line-height: 55px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+}
+
+._bar{
+  border: 2px solid;
+  line-height: 55px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+}
+
+#input{
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+#array_{
+  padding: 10px;
+}
+
+#size{
+  padding: 0 10px 10px 0;
+}
+
+#speed{
+  padding: 0 10px 10px 0;
+}
+
+.ins{
+  width: 160px;
+  margin-left: 27px;
+  height: 40px;
+}
+
+.tab {
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+/* Style the tab content */
+.tabcontent1 {
+  display: none;
+  /* padding: 6px 12px; */
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.tab1 {
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tabcontent2 {
+  display: none;
+  /* padding: 6px 12px; */
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.tab2 {
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tabcontent3 {
+  display: none;
+  /* padding: 6px 12px; */
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.tab3 {
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tabcontent4 {
+  display: none;
+  /* padding: 6px 12px; */
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.tab4 {
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tabcontent5 {
+  display: none;
+  /* padding: 6px 12px; */
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.tab5 {
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+h3, p{
+  margin-left: 15px;
+}
+
+code{
+  font-weight: 600;
+  color: #34495E;
+}
+
+#Instructions{
+  font-family: sans-serif;
+  font-size: 18px;
+}
