@@ -27,10 +27,10 @@ app.get("/visualizer-sorting", function(req, res){
     title: "Sorting Visualizer",
     sub_text: "Choose one to visualize",
     card_title: "Black Board Implementation",
-    card_title_: "Practical Implementation",
+    card_title_: "Theoretical Implementation",
     link:"Click Here",
     black_board: "/sorting",
-    pratical: "/sorting_"
+    Theoretical: "/sorting_"
   });
 })
 
@@ -39,10 +39,10 @@ app.get("/visualizer-searching", function(req, res){
     title: "Searching Visualizer",
     sub_text: "Choose one to visualize",
     card_title: "Black Board Implementation",
-    card_title_: "Practical Implementation",
+    card_title_: "Theoretical Implementation",
     link: "Click Here",
     black_board: "/searching",
-    pratical: "/searching_"
+    Theoretical: "/searching_"
   });
 })
 
